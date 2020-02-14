@@ -2,7 +2,8 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { shallow } from 'enzyme';
 import MainPage from './MainPage';
-
+import {createSerializer} from 'enzyme-to-json';
+expect.addSnapshotSerializer(createSerializer({mode: 'deep'}));
 let wrapper;
 
 beforeEach(() => {

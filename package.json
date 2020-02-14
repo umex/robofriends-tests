@@ -4,8 +4,6 @@
   "private": true,
   "homepage": "https://aneagoie.github.io/robofriends-pwa",
   "dependencies": {
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
     "fetch-mock": "^6.5.2",
     "gh-pages": "^1.2.0",
     "nock": "^9.6.1",
@@ -27,5 +25,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4"
   }
 }
