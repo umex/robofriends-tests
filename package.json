@@ -2,7 +2,7 @@
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aneagoie.github.io/robofriends-pwa",
+  "homepage": "https://umex.github.io/robofriends-pwa",
   "dependencies": {
     "fetch-mock": "^6.5.2",
     "gh-pages": "^1.2.0",
@@ -30,5 +30,17 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
